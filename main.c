@@ -30,7 +30,7 @@ int main()
     printf("Digite a cadeia (alfabeto = {c, d}): ");
     fgets(entrada, MAX_ENTRADA, stdin);
 
-    if(entrada[0] == ' '){
+    if(entrada[0] == ' ' || entrada[0] == '\n'){
         printf("sim\n");
         return 0;
     }
